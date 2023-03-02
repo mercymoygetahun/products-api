@@ -63,6 +63,7 @@ let db = new sqlite3.Database(DBSOURCE, (err) => {
             gender text,
             age text,
             cardHolderName text,
+            cardNumber text,
             expirydate text,
             cvv text,
             timeStamp text
